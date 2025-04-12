@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 # Load data directly
-data = pd.read_excel("Exam_Marks_SampleData.xlsx")
+data = pd.read_excel("C:/Users/Maheen/Downloads/Exam_Marks_SampleData.xlsx")
 column = data.select_dtypes(include=np.number).columns[0]
 x = data[column].dropna().values
 
